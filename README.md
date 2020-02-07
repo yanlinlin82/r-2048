@@ -8,4 +8,4 @@ source("2048.R")
 
 Screenshot
 
-[](screenshot.png)
+![](screenshot.png)
