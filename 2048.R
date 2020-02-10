@@ -23,7 +23,7 @@ draw <- function() {
     ggtitle("Press <Up>,<Down>,<Left>,<Right> to play, <ESC> to exit") +
     theme_void() +
     theme(plot.title = element_text(size = 12, hjust = .5, face = "bold", margin = margin(t = 20)))
-  print(g)
+  print(g, newpage = FALSE)
 }
 
 add <- function(n = 1) {
